@@ -1,0 +1,21 @@
+/* Basic styling for navigation and content */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 1rem;
+}
+
+main {
+    padding: 2rem;
+}
+
+.active {
+    font-weight: bold;
+    color: teal;
+}
